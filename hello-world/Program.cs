@@ -13,6 +13,8 @@ namespace hello_world
             Console.Beep();
             Console.WriteLine("Hello World!");
             Console.ReadLine();
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ReadLine();
         }
     }
 }
